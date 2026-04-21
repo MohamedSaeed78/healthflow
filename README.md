@@ -15,5 +15,5 @@
   * Provide correction feedback
   * Include warm-up sessions to prevent Injury.
 
-## The app is built using **Flutter**, enabling a single codebase for both Android and iOS platforms.
-## The AI pose estimation and posture correction model were trained using Python and integrated into the mobile application.
+> The app is built using **Flutter**, enabling a single codebase for both Android and iOS platforms.
+>> The AI pose estimation and posture correction model were trained using Python and integrated into the mobile application.
