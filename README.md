@@ -28,29 +28,29 @@
 * User profile setup after registration
 * Stores user data such as:
 * Height, weight, BMI
- * Fitness goal
- * Powered by **Firebase Authentication** and **Firestore** for secure data storage
+  * Fitness goal
+  * Powered by **Firebase Authentication** and **Firestore** for secure data storage
 ### 🧮 BMI Calculation
-* BMI is automatically calculated after completing the profile
-* Used to personalize workout and diet recommendations
+ * BMI is automatically calculated after completing the profile
+ * Used to personalize workout and diet recommendations
 ### 🏋️ Exercise Explorer
 * Browse exercises categorized into:
- * Home (body-only)
- * Gym (equipment-based)
+  * Home (body-only)
+  * Gym (equipment-based)
 * Standalone exercise display pages
 ### 📅 Workout Planner (Editable)
 * Create custom workout plans
 * Add or remove exercises inside each plan
 * Includes default plans:
- * Body-only plan
- * Gym plan
- * Beginner mixed plan
+  * Body-only plan
+  * Gym plan
+  * Beginner mixed plan
 ### 🥗 Diet Planner (Editable)
 * Create custom diet plans
 * Add or remove meals/food items
 * Includes default plans:
- * High-protein plan
- * Balanced starter plan
+  * High-protein plan
+  * Balanced starter plan
 ### 🤖 AI Chatbot Assistant
 * Generates personalized workout and diet plans
 * Uses user BMI, goal, and profile data
