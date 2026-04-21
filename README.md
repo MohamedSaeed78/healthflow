@@ -20,7 +20,7 @@
 
 # 🚀 Features
 
-## HealthFlow provides a complete AI-assisted fitness experience through the following features:
+> HealthFlow provides a complete AI-assisted fitness experience through the following features:
 
 ### 🔐 Authentication & User Profile
 * Login and Register system
