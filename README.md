@@ -1,6 +1,6 @@
 # HEALTH FLOW
 
-# 🧠 HealthFlow — AI Fitness Trainer Mobile App
+# HealthFlow — AI Fitness Trainer Mobile App
 
 > HealthFlow is an AI-powered fitness trainer mobile application designed to help users manage their exercise routines and diet plans in a simple, personalized, and intelligent way.
 
@@ -18,11 +18,11 @@
 > The app is built using **Flutter**, enabling a single codebase for both Android and iOS platforms.
 > The AI pose estimation and posture correction model were trained using Python and integrated into the mobile application.
 
-# 🚀 Features
+#  Features
 
 > HealthFlow provides a complete AI-assisted fitness experience through the following features:
 
-### 🔐 Authentication & User Profile
+###  Authentication & User Profile
 * Login and Register system
 * Splash screen on app launch
 * User profile setup after registration
@@ -30,44 +30,44 @@
   * Height, weight, BMI
   * Fitness goal
   * Powered by **Firebase Authentication** and **Firestore** for secure data storage
-### 🧮 BMI Calculation
+###  BMI Calculation
  * BMI is automatically calculated after completing the profile
  * Used to personalize workout and diet recommendations
-### 🏋️ Exercise Explorer
+###  Exercise Explorer
 * Browse exercises categorized into:
   * Home (body-only)
   * Gym (equipment-based)
 * Standalone exercise display pages
-### 📅 Workout Planner (Editable)
+### Workout Planner (Editable)
 * Create custom workout plans
 * Add or remove exercises inside each plan
 * Includes default plans:
   * Body-only plan
   * Gym plan
   * Beginner mixed plan
-### 🥗 Diet Planner (Editable)
+### Diet Planner (Editable)
 * Create custom diet plans
 * Add or remove meals/food items
 * Includes default plans:
   * High-protein plan
   * Balanced starter plan
-### 🤖 AI Chatbot Assistant
+###  AI Chatbot Assistant
 * Generates personalized workout and diet plans
 * Uses user BMI, goal, and profile data
 * Provides smart recommendations and guidance
-### 🎥 AI Pose Estimation & Form Correction
+###  AI Pose Estimation & Form Correction
 * Supports push-ups and squats
 * Counts correct repetitions
 * Detects incorrect posture
 * Gives real-time correction feedback
 * Includes a warm-up phase before exercises
 
-## 🧠 AI Pipeline & Pose Correction Architecture
+##  AI Pipeline & Pose Correction Architecture
 
 > HealthFlow does not rely only on a pre-trained pose model.
 > It implements a custom AI pipeline to detect exercise form correctness in real time.
 
-## 🧍 Step 1 — Pose Keypoint Extraction
+##  Step 1 — Pose Keypoint Extraction
 
 > Using MoveNet from TensorFlow Lite, body keypoints were extracted from exercise videos.
 
@@ -78,18 +78,18 @@
   * Once for incorrect form
 * Extract 17 body keypoints per frame
 * Save the keypoints dataset for training
-### 🏋️ Step 2 — Training the Form Classification Model
+###  Step 2 — Training the Form Classification Model
 
 > A second Jupyter Notebook was used to:
 
 * Train a classification model using the extracted keypoints
 * Classify exercise form into:
-  * ✅ Correct
-  * ❌ Incorrect
+  *  Correct
+  *  Incorrect
 
 > This model was trained on a custom dataset created specifically for push-ups and squats.
 
-### 📱 Step 3 — Model Integration in Flutter
+###  Step 3 — Model Integration in Flutter
 
 > Inside the Flutter app:
 
