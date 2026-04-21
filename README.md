@@ -17,3 +17,48 @@
 
 > The app is built using **Flutter**, enabling a single codebase for both Android and iOS platforms.
 > The AI pose estimation and posture correction model were trained using Python and integrated into the mobile application.
+
+# 🚀 Features
+
+## HealthFlow provides a complete AI-assisted fitness experience through the following features:
+
+### 🔐 Authentication & User Profile
+* Login and Register system
+* Splash screen on app launch
+* User profile setup after registration
+* Stores user data such as:
+* Height, weight, BMI
+ * Fitness goal
+ * Powered by **Firebase Authentication** and **Firestore** for secure data storage
+### 🧮 BMI Calculation
+* BMI is automatically calculated after completing the profile
+* Used to personalize workout and diet recommendations
+### 🏋️ Exercise Explorer
+* Browse exercises categorized into:
+ * Home (body-only)
+ * Gym (equipment-based)
+* Standalone exercise display pages
+### 📅 Workout Planner (Editable)
+* Create custom workout plans
+* Add or remove exercises inside each plan
+* Includes default plans:
+ * Body-only plan
+ * Gym plan
+ * Beginner mixed plan
+### 🥗 Diet Planner (Editable)
+* Create custom diet plans
+* Add or remove meals/food items
+* Includes default plans:
+ * High-protein plan
+ * Balanced starter plan
+### 🤖 AI Chatbot Assistant
+* Generates personalized workout and diet plans
+* Uses user BMI, goal, and profile data
+* Provides smart recommendations and guidance
+### 🎥 AI Pose Estimation & Form Correction
+* Supports push-ups and squats
+* Counts correct repetitions
+* Detects incorrect posture
+* Gives real-time correction feedback
+* Includes a warm-up phase before exercises
+
