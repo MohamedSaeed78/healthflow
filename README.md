@@ -96,10 +96,10 @@
 1. MoveNet runs first to detect live body keypoints from the camera
 2. The extracted keypoints are passed to the trained classification model
 3. The app:
-  1. Counts only correct repetitions
-  2. Detects bad posture
-  3. Gives real-time voice feedback
-  4. Includes a warm-up phase before starting the main exercise
+ 1. Counts only correct repetitions
+ 2. Detects bad posture
+ 3. Gives real-time voice feedback
+ 4. Includes a warm-up phase before starting the main exercise
 
 > This combination allows HealthFlow to behave like a real AI fitness coach, not just a rep counter.
 
