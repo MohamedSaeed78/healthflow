@@ -2,7 +2,7 @@
 
 # 🧠 HealthFlow — AI Fitness Trainer Mobile App
 
-## HealthFlow is an AI-powered fitness trainer mobile application designed to help users manage their exercise routines and diet plans in a simple, personalized, and intelligent way.
+> HealthFlow is an AI-powered fitness trainer mobile application designed to help users manage their exercise routines and diet plans in a simple, personalized, and intelligent way.
 
 ### With the increasing stress of daily life and irregular fitness habits, many people struggle to maintain a consistent workout and healthy diet. HealthFlow solves this problem by providing:
 
