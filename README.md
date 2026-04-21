@@ -62,3 +62,44 @@
 * Gives real-time correction feedback
 * Includes a warm-up phase before exercises
 
+## 🧠 AI Pipeline & Pose Correction Architecture
+
+> HealthFlow does not rely only on a pre-trained pose model.
+> It implements a custom AI pipeline to detect exercise form correctness in real time.
+
+## 🧍 Step 1 — Pose Keypoint Extraction
+
+> Using MoveNet from TensorFlow Lite, body keypoints were extracted from exercise videos.
+
+### A Jupyter Notebook (Python) was built to:
+
+* Process exercise videos twice:
+  * Once for correct form
+  * Once for incorrect form
+* Extract 17 body keypoints per frame
+* Save the keypoints dataset for training
+### 🏋️ Step 2 — Training the Form Classification Model
+
+> A second Jupyter Notebook was used to:
+
+* Train a classification model using the extracted keypoints
+* Classify exercise form into:
+  * ✅ Correct
+  * ❌ Incorrect
+
+> This model was trained on a custom dataset created specifically for push-ups and squats.
+
+### 📱 Step 3 — Model Integration in Flutter
+
+> Inside the Flutter app:
+
+1. MoveNet runs first to detect live body keypoints from the camera
+2. The extracted keypoints are passed to the trained classification model
+3. The app:
+* Counts only correct repetitions
+* Detects bad posture
+* Gives real-time voice feedback
+* Includes a warm-up phase before starting the main exercise
+
+> This combination allows HealthFlow to behave like a real AI fitness coach, not just a rep counter.
+
