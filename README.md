@@ -27,7 +27,7 @@
 * Splash screen on app launch
 * User profile setup after registration
 * Stores user data such as:
-* Height, weight, BMI
+  * Height, weight, BMI
   * Fitness goal
   * Powered by **Firebase Authentication** and **Firestore** for secure data storage
 ### 🧮 BMI Calculation
