@@ -33,9 +33,10 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
 
 ---
 
-### Home
-
-![](screenshots/home.jpg)
+### Home & Exercise Categories
+| Home | Exercise Categories |
+|---|---|
+| ![](screenshots/home.jpg) | ![](screenshots/exercises.jpg) |
 
 ---
 
