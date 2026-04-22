@@ -22,8 +22,15 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
   - Detects incorrect posture
   - Provides real-time voice feedback
   - Includes warm-up before exercise
+    
+---
+## Branding
+| Login |
+|---|
+| ![](screenshots/Brand_Board.png) |
 
 ---
+
 ## Screenshots
 
 ### Authentication & Profile
