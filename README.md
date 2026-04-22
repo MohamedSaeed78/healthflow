@@ -88,3 +88,21 @@ To run this project locally, some configuration is required because sensitive ke
 dart pub global activate flutterfire_cli
 flutterfire configure
 ```
+### 2) Add Gemini API Key (Chatbot)
+* The chatbot uses the Gemini API.
+* Add your own API key in the project **healthflow\lib\features\chatbot\services\gemeni_key.dart**
+
+### 3) Install TensorFlow Lite Dependencies
+* Before running the project, run:
+```
+install.bat
+```
+* This installs the required TensorFlow Lite native dependencies needed for the pose estimation feature.
+### 4) Get Flutter Packages
+```
+flutter pub get
+```
+### 5) Run the App
+```
+fluttert run
+```
