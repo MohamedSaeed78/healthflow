@@ -50,7 +50,7 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
 
 | Warm-up | Incorrect Form Feedback |
 |---|---|
-| ![](screenshots/befor.jpg) | ![](screenshots/after.jpg) |
+| ![](screenshots/before.jpg) | ![](screenshots/after.jpg) |
 
 ---
 
