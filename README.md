@@ -74,3 +74,17 @@ The project follows Clean Architecture principles to ensure maintainability and 
 ## Platforms
 
 - Android
+
+---
+
+## Setup & Run Instructions
+
+To run this project locally, some configuration is required because sensitive keys and files were removed from the repository.
+
+### 1) Configure Firebase using FlutterFire CLI
+
+## bash
+``` 
+dart pub global activate flutterfire_cli
+flutterfire configure
+```
