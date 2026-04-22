@@ -73,7 +73,8 @@ The project follows Clean Architecture principles to ensure maintainability and 
 
 ## Platforms
 
-- Android
+- Android (tested)
+- ios (untried)
 
 ---
 
