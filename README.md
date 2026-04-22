@@ -49,7 +49,7 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
 ### AI Pose Estimation
 
 | Warm-up | Incorrect Form Feedback |
-|---|---|---|---|
+|---|---|
 | ![](screenshots/befor.jpg) | ![](screenshots/after.jpg) |
 
 ---
