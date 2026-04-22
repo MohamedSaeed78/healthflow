@@ -24,6 +24,16 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
   - Includes warm-up before exercise
 
 ---
+## Screenshots
+
+### Authentication & Profile
+
+![](screenshots/splash.png)
+![](screenshots/login.png)
+![](screenshots/register.png)
+![](screenshots/profile.png)
+
+---
 
 ## Tech Stack
 
