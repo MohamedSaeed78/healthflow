@@ -25,7 +25,7 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
     
 ---
 ## Branding
-| Login |
+| Brand Board |
 |---|
 | ![](screenshots/Brand_Board.png) |
 
