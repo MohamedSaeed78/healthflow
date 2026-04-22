@@ -56,7 +56,7 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
 
 ### AI Chatbot
 
-| Chatbot Recommendations |
+| Chatbot UI | Chatbot Recommendations |
 |---|---|
 | ![](screenshots/chatbot.jpg) | ![](screenshots/chatbot2.jpg) |
 
