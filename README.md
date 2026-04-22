@@ -40,9 +40,9 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
 
 ---
 
-### Workout & Diet Planner
-
-![](screenshots/workout_plans.jpg)
+| Workout Plans | Edit Workout Plan | Diet Plans | Edit Diet Plan |
+|---|---|---|---|
+| ![](screenshots/workout_plans.jpg) | ![](screenshots/edit_workout.jpg) | ![](screenshots/diet_plans.jpg) | ![](screenshots/edit_diet.jpg) |
 
 ---
 
