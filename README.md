@@ -54,6 +54,14 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
 
 ---
 
+### AI Chatbot
+
+| Chatbot Recommendations |
+|---|---|
+| ![](screenshots/chatbot.jpg) | ![](screenshots/chatbot2.jpg) |
+
+---
+
 ## Tech Stack
 
 **Mobile Application**
