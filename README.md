@@ -47,12 +47,9 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
 - tflite_flutter and tflite_flutter_helper
 - flutter_gemini
 - firebase_auth and cloud_firestore
-- hive
 - flutter_tts
-- lottie
 - image_picker and image
-- sensors_plus
-
+  
 ---
 
 ## AI Pose Correction Pipeline
