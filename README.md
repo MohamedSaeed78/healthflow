@@ -31,7 +31,7 @@ It also integrates an AI chatbot for personalized guidance and a real-time pose 
 ![](screenshots/splash.png)
 ![](screenshots/login.jpg)
 ![](screenshots/register.jpg)
-![](screenshots/profile.jpg)
+![](screenshots/profile.png)
 
 ---
 
